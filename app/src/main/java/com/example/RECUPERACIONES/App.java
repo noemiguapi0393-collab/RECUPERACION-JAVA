@@ -9,6 +9,7 @@ public class App {
         System.out.println(" ¡Hola Noemi! Iniciando calculadora...  ");
         System.out.println("     TEOREMA DE PITÁGORAS (SISTEMA)      ");
         System.out.println("*****************************************");
+        System.out.println("Nota: Use solo numeros mayores a cero."); // <-- LÍNEA NUEVA
         System.out.println("-----------------------------------------");
         System.out.print("Por favor, digite el primer Cateto (A): ");
         double catetoA = teclado.nextDouble();
@@ -18,7 +19,7 @@ public class App {
         System.out.println("-----------------------------------------");
         System.out.println("=== IMPRIMIENDO RESULTADOS FINALES ===");
         System.out.println("* Hipotenusa obtenida: " + hipotenusa);
-        System.out.println("_________________________________________"); // <-- CAMBIADO POR GUIONES BAJOS
+        System.out.println("_________________________________________");
         System.out.println("Cálculo terminado con éxito. ¡Adiós!");
         teclado.close();
     }
