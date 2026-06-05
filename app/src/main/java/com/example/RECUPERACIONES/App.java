@@ -1,7 +1,8 @@
 package com.example.RECUPERACIONES;
 import java.util.Scanner;
 
-public class App {
+// Programa desarrollado por Noemi para la recuperacion de Git y Java
+public class App { // <-- COMENTARIO NUEVO ARRIBA
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("*****************************************");
@@ -16,7 +17,7 @@ public class App {
         double hipotenusa = Math.sqrt(Math.pow(catetoA, 2) + Math.pow(catetoB, 2));
         System.out.println("-----------------------------------------");
         System.out.println("=== IMPRIMIENDO RESULTADOS FINALES ===");
-        System.out.println("* Hipotenusa obtenida: " + hipotenusa); // <-- TEXTO MODIFICADO
+        System.out.println("* Hipotenusa obtenida: " + hipotenusa);
         System.out.println("=========================================");
         System.out.println("Cálculo terminado con éxito. ¡Adiós!");
         teclado.close();
