@@ -5,6 +5,7 @@ public class App {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("*****************************************");
+        System.out.println(" ¡Hola Noemi! Iniciando calculadora...  ");
         System.out.println("     CÁLCULO DE LA HIPOTENUSA            ");
         System.out.println("*****************************************");
         System.out.print("Ingrese la longitud del Cateto A: ");
