@@ -16,13 +16,15 @@ public class App {
         double catetoB = teclado.nextDouble();
         
         // Aplicamos la formula matematica del Teorema de Pitagoras
-        double hipotenusa = Math.sqrt(Math.pow(catetoA, 2) + Math.pow(catetoB, 2)); // <-- COMENTARIO NUEVO ARRIBA
+        double hipotenusa = Math.sqrt(Math.pow(catetoA, 2) + Math.pow(catetoB, 2));
         
         System.out.println("-----------------------------------------");
         System.out.println("=== IMPRIMIENDO RESULTADOS FINALES ===");
         System.out.println("* Hipotenusa obtenida: " + hipotenusa);
         System.out.println("=========================================");
         System.out.println("Cálculo terminado con éxito. ¡Adiós!");
-        teclado.close();
+        
+        // Cerramos el objeto scanner para liberar memoria
+        teclado.close(); // <-- COMENTARIO NUEVO ARRIBA
     }
 }
