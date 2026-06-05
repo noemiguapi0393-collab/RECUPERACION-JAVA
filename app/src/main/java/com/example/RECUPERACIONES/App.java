@@ -24,9 +24,9 @@ public class App {
         System.out.println("=== IMPRIMIENDO RESULTADOS FINALES ===");
         System.out.println("* Hipotenusa obtenida: " + hipotenusa);
         System.out.println("_________________________________________");
-        System.out.println("Cálculo terminado con éxito. ¡Adiós!");
+        System.out.println("Programa finalizado correctamente."); // <-- TEXTO MODIFICADO
         System.out.println("*****************************************");
         teclado.close();
     }
 }
-// Fin de la clase App y del archivo fuente // <-- COMENTARIO NUEVO AL FINAL
+// Fin de la clase App y del archivo fuente
