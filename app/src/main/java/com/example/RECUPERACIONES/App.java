@@ -18,10 +18,8 @@ public class App {
         double catetoA = teclado.nextDouble();
         System.out.print("Por favor, digite el segundo Cateto (B): ");
         double catetoB = teclado.nextDouble();
-        
-        System.out.println(">>> Procesando operacion matematica..."); // <-- LÍNEA NUEVA
+        System.out.println(">>> Procesando operacion matematica...");
         double hipotenusa = Math.sqrt(Math.pow(catetoA, 2) + Math.pow(catetoB, 2));
-        
         System.out.println("-----------------------------------------");
         System.out.println("=== IMPRIMIENDO RESULTADOS FINALES ===");
         System.out.println("* Hipotenusa obtenida: " + hipotenusa);
@@ -31,3 +29,4 @@ public class App {
         teclado.close();
     }
 }
+// Fin de la clase App y del archivo fuente // <-- COMENTARIO NUEVO AL FINAL
