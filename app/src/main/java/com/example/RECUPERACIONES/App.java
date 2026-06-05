@@ -7,7 +7,7 @@ public class App {
         Scanner teclado = new Scanner(System.in);
         System.out.println("*****************************************");
         System.out.println(" ¡Hola Noemi! Iniciando calculadora...  ");
-        System.out.println("     TEOREMA DE PITÁGORAS (SISTEMA)      "); // <-- TITULO MODIFICADO
+        System.out.println("     TEOREMA DE PITÁGORAS (SISTEMA)      ");
         System.out.println("*****************************************");
         System.out.println("-----------------------------------------");
         System.out.print("Por favor, digite el primer Cateto (A): ");
@@ -18,7 +18,7 @@ public class App {
         System.out.println("-----------------------------------------");
         System.out.println("=== IMPRIMIENDO RESULTADOS FINALES ===");
         System.out.println("* Hipotenusa obtenida: " + hipotenusa);
-        System.out.println("=========================================");
+        System.out.println("_________________________________________"); // <-- CAMBIADO POR GUIONES BAJOS
         System.out.println("Cálculo terminado con éxito. ¡Adiós!");
         teclado.close();
     }
