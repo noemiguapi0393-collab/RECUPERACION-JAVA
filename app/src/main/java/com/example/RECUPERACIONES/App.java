@@ -1,4 +1,5 @@
-package com.example.RECUPERACIONES;
+// Definicion del paquete del proyecto
+package com.example.RECUPERACIONES; // <-- COMENTARIO NUEVO ARRIBA
 import java.util.Scanner;
 
 // Programa desarrollado por Noemi para la recuperacion de Git y Java
@@ -9,7 +10,7 @@ public class App {
         System.out.println(" ¡Hola Noemi! Iniciando calculadora...  ");
         System.out.println("     TEOREMA DE PITÁGORAS (SISTEMA)      ");
         System.out.println("*****************************************");
-        System.out.println("Nota: Use solo numeros mayores a cero."); // <-- LÍNEA NUEVA
+        System.out.println("Nota: Use solo numeros mayores a cero.");
         System.out.println("-----------------------------------------");
         System.out.print("Por favor, digite el primer Cateto (A): ");
         double catetoA = teclado.nextDouble();
