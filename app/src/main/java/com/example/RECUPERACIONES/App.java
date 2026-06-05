@@ -5,7 +5,7 @@ import java.util.Scanner;
 // Programa desarrollado por Noemi para la recuperacion de Git y Java
 public class App {
     public static void main(String[] args) {
-        // Inicio de la ejecucion principal del programa // <-- COMENTARIO NUEVO
+        // Inicio de la ejecucion principal del programa
         Scanner teclado = new Scanner(System.in);
         System.out.println("*****************************************");
         System.out.println(" ¡Hola Noemi! Iniciando calculadora...  ");
@@ -13,6 +13,7 @@ public class App {
         System.out.println("*****************************************");
         System.out.println("Nota: Use solo numeros mayores a cero.");
         System.out.println(".........................................");
+        System.out.println(">>> Leyendo datos del usuario..."); // <-- LÍNEA NUEVA
         System.out.print("Por favor, digite el primer Cateto (A): ");
         double catetoA = teclado.nextDouble();
         System.out.print("Por favor, digite el segundo Cateto (B): ");
