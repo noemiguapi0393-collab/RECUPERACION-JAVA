@@ -15,8 +15,8 @@ public class App {
         double catetoB = teclado.nextDouble();
         double hipotenusa = Math.sqrt(Math.pow(catetoA, 2) + Math.pow(catetoB, 2));
         System.out.println("-----------------------------------------");
-        System.out.println("=== IMPRIMIENDO RESULTADOS FINALES ==="); // <-- TEXTO CAMBIADO
-        System.out.println("-> El valor de la Hipotenusa es: " + hipotenusa);
+        System.out.println("=== IMPRIMIENDO RESULTADOS FINALES ===");
+        System.out.println("* Hipotenusa obtenida: " + hipotenusa); // <-- TEXTO MODIFICADO
         System.out.println("=========================================");
         System.out.println("Cálculo terminado con éxito. ¡Adiós!");
         teclado.close();
