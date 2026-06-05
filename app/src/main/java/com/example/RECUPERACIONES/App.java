@@ -10,7 +10,7 @@ public class App {
         System.out.println("*****************************************");
         System.out.print("Por favor, digite el primer Cateto (A): ");
         double catetoA = teclado.nextDouble();
-        System.out.print("Ingrese la longitud del Cateto B: ");
+        System.out.print("Por favor, digite el segundo Cateto (B): ");
         double catetoB = teclado.nextDouble();
         double hipotenusa = Math.sqrt(Math.pow(catetoA, 2) + Math.pow(catetoB, 2));
         System.out.println("-----------------------------------------");
