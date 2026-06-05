@@ -1,6 +1,6 @@
 // Definicion del paquete del proyecto
-package com.example.RECUPERACIONES; // <-- COMENTARIO NUEVO ARRIBA
-import java.util.Scanner;
+package com.example.RECUPERACIONES;
+import java.util.Scanner; // Importacion de la libreria para capturar datos por consola // <-- COMENTARIO NUEVO
 
 // Programa desarrollado por Noemi para la recuperacion de Git y Java
 public class App {
