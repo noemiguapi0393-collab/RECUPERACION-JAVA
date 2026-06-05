@@ -3,6 +3,7 @@ package com.example.RECUPERACIONES;
 import java.util.Scanner;
 
 // Programa desarrollado por Noemi para la recuperacion de Git y Java
+// Version del software: v1.0.0 // <-- COMENTARIO NUEVO
 public class App {
     public static void main(String[] args) {
         // Inicio de la ejecucion principal del programa
@@ -24,7 +25,7 @@ public class App {
         System.out.println("=== IMPRIMIENDO RESULTADOS FINALES ===");
         System.out.println("* Hipotenusa obtenida: " + hipotenusa);
         System.out.println("_________________________________________");
-        System.out.println("Programa finalizado correctamente."); // <-- TEXTO MODIFICADO
+        System.out.println("Programa finalizado correctamente.");
         System.out.println("*****************************************");
         teclado.close();
     }
