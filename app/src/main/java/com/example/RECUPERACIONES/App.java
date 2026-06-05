@@ -17,6 +17,7 @@ public class App {
         System.out.println("RESULTADOS:");
         System.out.println("-> El valor de la Hipotenusa es: " + hipotenusa);
         System.out.println("=========================================");
+        System.out.println("Cálculo terminado con éxito. ¡Adiós!");
         teclado.close();
     }
 }
