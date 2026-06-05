@@ -5,6 +5,7 @@ import java.util.Scanner;
 // Programa desarrollado por Noemi para la recuperacion de Git y Java
 public class App {
     public static void main(String[] args) {
+        // Inicio de la ejecucion principal del programa // <-- COMENTARIO NUEVO
         Scanner teclado = new Scanner(System.in);
         System.out.println("*****************************************");
         System.out.println(" ¡Hola Noemi! Iniciando calculadora...  ");
@@ -22,7 +23,7 @@ public class App {
         System.out.println("* Hipotenusa obtenida: " + hipotenusa);
         System.out.println("_________________________________________");
         System.out.println("Cálculo terminado con éxito. ¡Adiós!");
-        System.out.println("*****************************************"); // <-- NUEVO ADORNO FINAL
+        System.out.println("*****************************************");
         teclado.close();
     }
 }
