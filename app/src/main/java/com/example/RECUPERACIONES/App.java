@@ -8,7 +8,7 @@ public class App {
         System.out.println(" ¡Hola Noemi! Iniciando calculadora...  ");
         System.out.println("     CÁLCULO DE LA HIPOTENUSA            ");
         System.out.println("*****************************************");
-        System.out.print("Ingrese la longitud del Cateto A: ");
+        System.out.print("Por favor, digite el primer Cateto (A): ");
         double catetoA = teclado.nextDouble();
         System.out.print("Ingrese la longitud del Cateto B: ");
         double catetoB = teclado.nextDouble();
