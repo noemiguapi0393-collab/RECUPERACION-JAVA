@@ -1,6 +1,6 @@
 // Definicion del paquete del proyecto
 package com.example.RECUPERACIONES;
-import java.util.Scanner; // Importacion de la libreria para capturar datos por consola // <-- COMENTARIO NUEVO
+import java.util.Scanner;
 
 // Programa desarrollado por Noemi para la recuperacion de Git y Java
 public class App {
@@ -11,7 +11,7 @@ public class App {
         System.out.println("     TEOREMA DE PITÁGORAS (SISTEMA)      ");
         System.out.println("*****************************************");
         System.out.println("Nota: Use solo numeros mayores a cero.");
-        System.out.println("-----------------------------------------");
+        System.out.println("........................................."); // <-- MODIFICADO CON PUNTOS
         System.out.print("Por favor, digite el primer Cateto (A): ");
         double catetoA = teclado.nextDouble();
         System.out.print("Por favor, digite el segundo Cateto (B): ");
