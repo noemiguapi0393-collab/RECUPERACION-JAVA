@@ -2,7 +2,7 @@ package com.example.RECUPERACIONES;
 import java.util.Scanner;
 
 // Programa desarrollado por Noemi para la recuperacion de Git y Java
-public class App { // <-- COMENTARIO NUEVO ARRIBA
+public class App {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("*****************************************");
@@ -14,7 +14,10 @@ public class App { // <-- COMENTARIO NUEVO ARRIBA
         double catetoA = teclado.nextDouble();
         System.out.print("Por favor, digite el segundo Cateto (B): ");
         double catetoB = teclado.nextDouble();
-        double hipotenusa = Math.sqrt(Math.pow(catetoA, 2) + Math.pow(catetoB, 2));
+        
+        // Aplicamos la formula matematica del Teorema de Pitagoras
+        double hipotenusa = Math.sqrt(Math.pow(catetoA, 2) + Math.pow(catetoB, 2)); // <-- COMENTARIO NUEVO ARRIBA
+        
         System.out.println("-----------------------------------------");
         System.out.println("=== IMPRIMIENDO RESULTADOS FINALES ===");
         System.out.println("* Hipotenusa obtenida: " + hipotenusa);
