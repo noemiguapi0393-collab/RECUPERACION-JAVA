@@ -13,12 +13,15 @@ public class App {
         System.out.println("*****************************************");
         System.out.println("Nota: Use solo numeros mayores a cero.");
         System.out.println(".........................................");
-        System.out.println(">>> Leyendo datos del usuario..."); // <-- LÍNEA NUEVA
+        System.out.println(">>> Leyendo datos del usuario...");
         System.out.print("Por favor, digite el primer Cateto (A): ");
         double catetoA = teclado.nextDouble();
         System.out.print("Por favor, digite el segundo Cateto (B): ");
         double catetoB = teclado.nextDouble();
+        
+        System.out.println(">>> Procesando operacion matematica..."); // <-- LÍNEA NUEVA
         double hipotenusa = Math.sqrt(Math.pow(catetoA, 2) + Math.pow(catetoB, 2));
+        
         System.out.println("-----------------------------------------");
         System.out.println("=== IMPRIMIENDO RESULTADOS FINALES ===");
         System.out.println("* Hipotenusa obtenida: " + hipotenusa);
